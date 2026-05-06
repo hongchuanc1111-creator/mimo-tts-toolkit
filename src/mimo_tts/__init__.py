@@ -2,9 +2,8 @@
 
 __version__ = "0.1.0"
 
-from .client import MiMoTTS
+from .client import MiMoTTS, concatenate_wav_files, get_wav_duration_ms
 from .chunker import TextChunker
-from .audio import WavConcatenator
 from .styles import STYLES
 
-__all__ = ["MiMoTTS", "TextChunker", "WavConcatenator", "STYLES"]
+__all__ = ["MiMoTTS", "TextChunker", "concatenate_wav_files", "get_wav_duration_ms", "STYLES"]
